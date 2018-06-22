@@ -8,7 +8,7 @@ resource "aws_ecs_task_definition" "wordpress" {
 [
   {
     "name": "wordpress",
-    "image": "275829625285.dkr.ecr.us-east-1.amazonaws.com/adititest",
+    "image": <image URI which is pushed to AWS repository>,
     "essential": true,
     "portMappings": [
       {
